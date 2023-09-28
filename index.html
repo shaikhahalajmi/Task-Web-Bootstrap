@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <link
@@ -12,40 +13,49 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello!</title>
   </head>
-  <body class="">
+
+  <body
+    class="d-flex justify-content-center align-items-center bg-dark bg-gradient"
+  >
     <div class="container py-4">
-      <div class="">
-        <div class="">
+      <div class="row g-2 d-flex justify-content-center">
+        <!-- card1 -->
+        <div
+          class="card col-sm-12 col-md-6 p-5 d-flex justify-content-center align-items-center"
+        >
           <img
-            src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
-            class=""
-            style="width: 80px; height: 80px"
+            src="https://welovecatsandkittens.com/wp-content/uploads/2020/06/Funny-Cat-Names.jpg"
+            class="rounded-circle mb-3"
+            style="width: 150px; height: 150px"
             alt="Avatar"
           />
-          <h5 class=""><strong>John Doe</strong></h5>
-          <button type="button" class="">Contact</button>
+          <h5 class="mb-3"><strong>Shaikhah R</strong></h5>
+          <button type="button" class="btn btn-success">Contact</button>
         </div>
-        <div class="">
+
+        <!-- card2 -->
+        <div class="card col-sm-12 col-md-6 p-5">
           <strong>My Progress</strong>
-          <ul class="">
-            <li class="">
-              <div class="">
+          <ul class="list-group border-0 mt-4">
+            <li class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center">
                 <img
-                  src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
+                  src="data:image/png;base64,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"
                   alt=""
                   style="width: 45px; height: 45px"
-                  class=""
+                  class="rounded"
                 />
-                <div class="">
-                  <p class="">Django</p>
-                  <div class="">
+                <div class="ms-4">
+                  <p class="fw-bold">Django</p>
+                  <div class="progress">
                     <div
-                      class=""
+                      class="progress-bar bg-success"
                       role="progressbar"
                       style="width: 80%"
                       aria-valuenow="50"
@@ -55,23 +65,23 @@
                   </div>
                 </div>
               </div>
-              <span class="">&rarr;</span>
+              <span class="badge rounded-pill bg-success">&rarr;</span>
             </li>
           </ul>
-          <ul class="">
-            <li class="">
-              <div class="">
+          <ul class="list-group border-0 mt-4">
+            <li class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center">
                 <img
-                  src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
+                  src="https://static-00.iconduck.com/assets.00/flutter-icon-1651x2048-ojswpayr.png"
                   alt=""
                   style="width: 45px; height: 45px"
-                  class=""
+                  class="rounded"
                 />
-                <div class="">
-                  <p class="">Flutter</p>
-                  <div class="">
+                <div class="ms-4">
+                  <p class="fw-bold">Flutter</p>
+                  <div class="progress">
                     <div
-                      class=""
+                      class="progress-bar bg-info"
                       role="progressbar"
                       style="width: 30%"
                       aria-valuenow="50"
@@ -81,23 +91,23 @@
                   </div>
                 </div>
               </div>
-              <span class="">&rarr;</span>
+              <span class="badge rounded-pill bg-info">&rarr;</span>
             </li>
           </ul>
-          <ul class="">
-            <li class="">
-              <div class="">
+          <ul class="list-group border-0 mt-4">
+            <li class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center">
                 <img
-                  src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
+                  src="https://icons.iconarchive.com/icons/martz90/hex/512/html-5-icon.png"
                   alt=""
                   style="width: 45px; height: 45px"
-                  class=""
+                  class="rounded"
                 />
-                <div class="">
-                  <p class="">Html</p>
-                  <div class="">
+                <div class="ms-4">
+                  <p class="fw-bold">Html</p>
+                  <div class="progress">
                     <div
-                      class=""
+                      class="progress-bar bg-danger"
                       role="progressbar"
                       style="width: 80%"
                       aria-valuenow="50"
@@ -107,23 +117,23 @@
                   </div>
                 </div>
               </div>
-              <span class="">&rarr;</span>
+              <span class="badge rounded-pill bg-danger">&rarr;</span>
             </li>
           </ul>
-          <ul class="">
-            <li class="">
-              <div class="">
+          <ul class="list-group border-0 mt-4">
+            <li class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center">
                 <img
-                  src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
+                  src="https://icon-library.com/images/css-icon/css-icon-4.jpg"
                   alt=""
                   style="width: 45px; height: 45px"
-                  class=""
+                  class="rounded"
                 />
-                <div class="">
-                  <p class="">CSS</p>
-                  <div class="">
+                <div class="ms-4">
+                  <p class="fw-bold">CSS</p>
+                  <div class="progress">
                     <div
-                      class=""
+                      class="progress-bar bg-primary"
                       role="progressbar"
                       style="width: 80%"
                       aria-valuenow="50"
@@ -133,89 +143,106 @@
                   </div>
                 </div>
               </div>
-              <span class="">&rarr;</span>
+              <span class="badge rounded-pill bg-primary">&rarr;</span>
             </li>
           </ul>
         </div>
-        <div class="">
+        <div class="w-100"></div>
+        <!-- card3 -->
+        <div class="card col-sm-12 col-md-6 p-5">
           <strong>Reach me</strong>
           <form>
-            <div class="">
-              <label for="exampleInputEmail1" class="">Email address</label>
+            <div class="mb-4">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
               <input
                 type="email"
-                class=""
+                class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
-              <div id="emailHelp" class="">
+              <div id="emailHelp" class="form-text">
                 We'll never share your email with anyone else.
               </div>
             </div>
-            <div class="">
-              <label for="Subject" class="">Subject</label>
-              <textarea class="" id="Subject" rows="3"></textarea>
+            <div class="mb-4">
+              <label for="Subject" class="form-label">Subject</label>
+              <textarea class="form-control" id="Subject" rows="3"></textarea>
             </div>
-            <div class="">
-              <label for="Country" class="">Country</label>
-              <select class="">
+            <div class="mb-4">
+              <label for="Country" class="form-label">Country</label>
+              <select class="form-select">
                 <option selected>Open this select menu</option>
                 <option value="1">Kuwait</option>
                 <option value="2">Other</option>
               </select>
             </div>
-            <div class="">
-              <input type="checkbox" class="" id="exampleCheck1" />
-              <label class="" for="exampleCheck1"
+            <div class="mb-4 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
                 >This is a business email</label
               >
             </div>
-            <button type="submit" class="">Submit</button>
+            <button type="submit" class="btn btn-success">Submit</button>
           </form>
         </div>
-        <div class="">
+        <!-- card4 -->
+        <div class="card col-sm-12 col-md-6 p-5">
           <strong>My Blog</strong>
-          <div class="" style="height: auto; min-height: 450px">
-            <ol class="">
-              <li class="">
-                <div class="">
-                  <div class="">Article 1</div>
+          <div
+            class="justify-content-between"
+            style="height: auto; min-height: 450px"
+          >
+            <ol class="list-group list-group-numbered border-0">
+              <li
+                class="list-group-item d-flex justify-content-between border-0 align-items-start"
+              >
+                <div class="ms-4 me-auto">
+                  <div class="fw-bold">Article 1</div>
                   Lorem
                 </div>
-                <span class="">10 mins read</span>
+                <span class="badge rounded-pill bg-success">10 mins read</span>
               </li>
-              <li class="">
-                <div class="">
-                  <div class="">Article 2</div>
+              <li
+                class="list-group-item d-flex justify-content-between border-0 align-items-start"
+              >
+                <div class="ms-4 me-auto">
+                  <div class="fw-bold">Article 2</div>
                   Lorem
                 </div>
-                <span class="">15 mins read</span>
+                <span class="badge rounded-pill bg-success">15 mins read</span>
               </li>
-              <li class="">
-                <div class="">
-                  <div class="">Article 3</div>
+              <li
+                class="list-group-item d-flex justify-content-between border-0 align-items-start"
+              >
+                <div class="ms-4 me-auto">
+                  <div class="fw-bold">Article 3</div>
                   Lorem
                 </div>
-                <span class="">7 mins read</span>
+                <span class="badge rounded-pill bg-success">7 mins read</span>
               </li>
             </ol>
-            <ul class="">
-              <li class="">
-                <a class="" href="#" tabindex="-1" aria-disabled="true"
-                  >Previous</a
-                >
+
+            <ul class="pagination justify-content-center mt-5 p-5">
+              <li class="page-item">
+                <a class="page-link text-dark" href="#">Previous</a>
               </li>
-              <li class="">
-                <a class="" href="#">1</a>
+              <li class="page-item">
+                <a class="page-link text-dark" href="#">1</a>
               </li>
-              <li class="">
-                <a class="" href="#">2</a>
+              <li class="page-item">
+                <a class="page-link text-dark" href="#">2</a>
               </li>
-              <li class="">
-                <a class="" href="#">3</a>
+              <li class="page-item">
+                <a class="page-link text-dark" href="#">3</a>
               </li>
-              <li class="">
-                <a class="" href="#">Next</a>
+              <li class="page-item">
+                <a class="page-link text-dark" href="#">Next</a>
               </li>
             </ul>
           </div>
